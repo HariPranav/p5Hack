@@ -7,18 +7,9 @@ Preferabally linux !!
 
 3. Add all the files as follows
   
-    venv
-      |
-        bin
-            |
-            | templates
-            |          |
-            |            index.html
-            | 
-            | hello.py , in this file update the path as specified in the comments
-            |
-            | uploads
-            
+    1 folders in bin folder -> uploads
+    1 folder in bin templates then 1 file -> index.html
+    1 file in bin -> hello.py , in this check the comments for specifying the path
         
  4. Copy paste the code for index.html , hello.py
  5. $export FLASK_APP=hello.py
